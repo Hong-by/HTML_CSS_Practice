@@ -11,12 +11,23 @@ body{font-family: 'Poiret One', cursive; font-size: 14px; line-height: 1.6; colo
 .wrap{width: 100%; height: auto; position: relative;}
 
 
-/* Header Style */
-#header{width: 15%; height: 100%; background: #999; position: fixed;}
+/* Header Style Code */
+#header{width: 15%; height: 100%; background: #fff; position: fixed; display: flex; flex-direction: column; justify-content: space-between;}
+#header .log{width: 100%; height: 33.33%; display: flex; justify-content: center; align-items: center;}
 
-#header .log{width: 100%; height: 30%; display: flex; justify-content: center; align-items: center;}
+#header .gnbs{width: 100%; height: 33.33%; display: flex; justify-content: center; font-size: 18px; line-height: 2.4; padding: 20px 0; transition: all 0.4s;}
+
+#header .gnbs li:hover a{color: skyblue;}
 
 
+#header .social{width: 100%; height: 33.33%; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; padding-bottom: 20px;}
+#header .social>.about{width: 100%; display: flex; justify-content: center;}
+#header .social>.about .abt-c{width: 80%; display: flex; align-items: center; justify-content: center; margin-right: 10px;}
+#header .social>.social-btn{width: 100%; display: flex; justify-content: center;}
 
-.gnbs{width: 100%; height: auto; display: flex; justify-content: center; font-size: 18px; line-height: 2.4; padding: 20px 0;}
+#header .social>.about p{width: 50%;padding: 0 10px; font-size: 12px; height: 10px; display: flex; align-items: center;}
+#header .social>.about p:nth-child(1){border-right: 0.5px solid #555; justify-content: flex-end;}
+
+#header .social-btn> ul{width: 70%; display: flex; justify-content: center;}
+#header .social-btn> ul li a{font-size: 24px; margin: 0 5px;}
 
