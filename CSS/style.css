@@ -79,6 +79,8 @@ body{font-family: 'Poiret One', cursive; font-size: 14px; line-height: 1.6; colo
 .contents .txt:hover i{right: 135px; opacity: 0.5;}
 
 .contents article:nth-child(3){background: #bff7fa;}
+.contents article:nth-child(3) i{opacity: 1; font-size: 160px; bottom: -5px;}
+.contents article:nth-child(3):hover i{right: 0;}
 
 
 /* approach animation */
